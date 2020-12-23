@@ -15,7 +15,7 @@ In addition, users can do **Neural Pattern Similarity (NPS)**, **Spatiotemporal 
 
 ## Paper
 
-Lu, Z., & Ku, Y. (in press). NeuroRA: A Python toolbox of representational analysis from multi-modal neural data. Frontiers in Neuroinformatics. doi: 10.3389/fninf.2020.563669
+Lu, Z., & Ku, Y. (2020). NeuroRA: A Python toolbox of representational analysis from multi-modal neural data. Frontiers in Neuroinformatics. 14:563669. doi: 10.3389/fninf.2020.563669
 
 ## Installation
 
