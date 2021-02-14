@@ -132,10 +132,8 @@ def bhvRDM(bhv_data, sub_opt=0, method="correlation", abs=False):
     data = np.zeros([cons, subs], dtype=np.float64)
 
     # assignment
-    for i in range(cons):
-        for j in range(subs):
-            # save the data for each subject under each condition, average the trials
-            data[i][j] = np.average(bhv_data[i][j])
+    # save the data for each subject under each condition, average the trials
+    data = np.average(bhv_data, axis=2)
 
     # calculate the values in RDM
     for i in range(cons):

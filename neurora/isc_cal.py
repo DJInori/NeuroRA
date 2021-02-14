@@ -276,4 +276,3 @@ def isc_fmri_roi(fmri_data, mask_data):
     return subisc
 
 
-
